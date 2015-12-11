@@ -1,4 +1,4 @@
-# -*- mode: makefile-gmake; coding: utf-8 -*-
+# -*- mode: makefile-gmake; coding: utf-8; truncate-lines: true -*-
 
 include ../Make.rules
 
@@ -38,7 +38,7 @@ install:
 
 	install -d $(D)/usr/share/Ice-3.6.1
 
-	# /usr/share/Ice-3.6.1/icegrid-slice.3.6.ice.gz
-	# /usr/share/Ice-3.6.1/templates.xml
-	# /usr/share/Ice-3.6.1/upgradeicegrid36.py
-	# /usr/share/Ice-3.6.1/icegrid-slice.3.5.ice.gz
+	install -m 644 $(ICE_DIR)/cpp/config/icegrid-slice.3.6.ice.gz $(D)/usr/share/Ice-3.6.1/
+	install -m 644 $(ICE_DIR)/cpp/config/templates.xml $(D)/usr/share/Ice-3.6.1/
+	install -m 755 $(ICE_DIR)/cpp/config/upgradeicegrid36.py $(D)/usr/share/Ice-3.6.1/
+	install -m 644 $(ICE_DIR)/cpp/config/icegrid-slice.3.5.ice.gz $(D)/usr/share/Ice-3.6.1/

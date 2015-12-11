@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.6
 
 Package: zeroc-icegrid-rpi
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends},
  libzeroc-freeze3.6-rpi,
  libzeroc-ice3.6-rpi,
