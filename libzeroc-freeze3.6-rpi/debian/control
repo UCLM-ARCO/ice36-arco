@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.6
 
 Package: libzeroc-freeze3.6-rpi
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends},
  libzeroc-ice3.6-rpi
 Description: Freeze persistence service C++ run-time
