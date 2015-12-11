@@ -1,0 +1,14 @@
+Source: libzeroc-ice3.6-rpi
+Section: utils
+Priority: extra
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.6
+
+Package: libzeroc-ice3.6-rpi
+Architecture: any
+Depends: ${misc:Depends},
+ libmcpp0,
+ libssl1.0.0 (>= 1.0.0)
+Description:The Ice run time for C++
+ The ZeroC Ice run time for C++ and dependants.
