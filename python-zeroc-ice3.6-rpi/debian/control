@@ -6,6 +6,7 @@ Build-Depends: debhelper (>= 7.0.50~), python, dh-python
 Standards-Version: 3.9.6
 
 Package: python-zeroc-ice3.6-rpi
+Provides: python-zeroc-ice36
 Architecture: any
 Depends: ${misc:Depends},
  python,
