@@ -1,3 +1,4 @@
 # -*- mode: makefile-gmake; coding: utf-8 -*-
 
 ICE_DIR := $(shell pwd)/../src
+ICE_VER := 3.6.1
