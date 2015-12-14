@@ -8,8 +8,8 @@ Standards-Version: 3.9.6
 Package: libzeroc-icestorm3.6-rpi
 Architecture: any
 Depends: ${misc:Depends},
- libzeroc-freeze3.6,
- libzeroc-ice3.6
+ libzeroc-freeze3.6-rpi,
+ libzeroc-ice3.6-rpi
 Description: IceStorm publish–subscribe event distribution service for Ice
  IceStorm publish–subscribe event distribution service for the Internet
  Communications Engine (Ice).
