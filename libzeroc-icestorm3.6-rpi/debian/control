@@ -2,11 +2,14 @@ Source: libzeroc-icestorm3.6-rpi
 Section: utils
 Priority: extra
 Maintainer: John Doe <john.doe@email.com>
-Build-Depends: debhelper (>= 7.0.50~), quilt
+Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.6
 
 Package: libzeroc-icestorm3.6-rpi
-Architecture: all
-Depends: ${misc:Depends}
-Description: FIXME: Short description of the libzeroc-icestorm3.6-rpi package
- FIXME: long description about the basic features of the libzeroc-icestorm3.6-rpi package
+Architecture: any
+Depends: ${misc:Depends},
+ libzeroc-freeze3.6,
+ libzeroc-ice3.6
+Description: IceStorm publish–subscribe event distribution service for Ice
+ IceStorm publish–subscribe event distribution service for the Internet
+ Communications Engine (Ice).
