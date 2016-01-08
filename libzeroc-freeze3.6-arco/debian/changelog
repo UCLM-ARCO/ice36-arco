@@ -1,6 +1,5 @@
-libzeroc-freeze3.6-rpi (0.20151211-1) unstable; urgency=low
+libzeroc-freeze3.6-arco (0.20151211-1) unstable; urgency=low
 
   * Initial release
 
  -- Oscar Aceña Herrera <oscaracena@gmail.com>  Fri, 11 Dec 2015 15:08:18 +0100
-

@@ -22,7 +22,7 @@ setup(
     url = 'https://zeroc.com',
 
     package_dir = {'': PACKAGE_DIR},
-    py_modules = modules, 
+    py_modules = modules,
     packages = ["IceBox", "IceGrid", "IceMX", "IcePatch2", "IceStorm"],
 
     # FIXME: not valid for other than Debian Jessie

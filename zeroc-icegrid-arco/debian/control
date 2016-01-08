@@ -1,16 +1,16 @@
-Source: zeroc-icegrid-rpi
+Source: zeroc-icegrid-arco
 Section: utils
 Priority: extra
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.6
 
-Package: zeroc-icegrid-rpi
+Package: zeroc-icegrid-arco
 Architecture: any
 Depends: ${misc:Depends},
- libzeroc-freeze3.6-rpi,
- libzeroc-ice3.6-rpi,
- libzeroc-icestorm3.6-rpi
+ libzeroc-freeze3.6-arco,
+ libzeroc-ice3.6-arco,
+ libzeroc-icestorm3.6-arco
 Description: IceGrid is the server deployment and monitoring for Ice
  IceGrid is the server deployment and monitoring for the Internet
  Communications Engine (Ice).

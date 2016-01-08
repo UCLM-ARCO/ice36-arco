@@ -1,15 +1,15 @@
-Source: python-zeroc-ice3.6-rpi
+Source: python-zeroc-ice3.6-arco
 Section: python
 Priority: extra
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), python, dh-python
 Standards-Version: 3.9.6
 
-Package: python-zeroc-ice3.6-rpi
+Package: python-zeroc-ice3.6-arco
 Architecture: any
 Depends: ${misc:Depends},
  python,
- libzeroc-ice3.6-rpi
+ libzeroc-ice3.6-arco
 Description: Ice is comprehensive RPC framework with support for Python,
  The Internet Communications Engine (Ice) provides a robust, proven platform for
- developing mission-critical networked applications. 
+ developing mission-critical networked applications.

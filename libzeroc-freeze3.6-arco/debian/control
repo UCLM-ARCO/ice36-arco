@@ -1,14 +1,13 @@
-Source: libzeroc-ice3.6-rpi
+Source: libzeroc-freeze3.6-arco
 Section: utils
 Priority: extra
 Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.6
 
-Package: libzeroc-ice3.6-rpi
+Package: libzeroc-freeze3.6-arco
 Architecture: any
 Depends: ${misc:Depends},
- libmcpp0,
- libssl1.0.0 (>= 1.0.0)
-Description:The Ice run time for C++
- The ZeroC Ice run time for C++ and dependants.
+ libzeroc-ice3.6-arco
+Description: Freeze persistence service C++ run-time
+ Freeze persistence service (using DB) C++ run-time.
