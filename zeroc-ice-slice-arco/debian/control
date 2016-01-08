@@ -8,5 +8,6 @@ Standards-Version: 3.9.6
 Package: zeroc-ice-slice-arco
 Architecture: all
 Depends: ${misc:Depends}
+Provides: zeroc-ice-slice
 Description: Slice files used by ZeroC Ice packages
  Slice definition files used by all ZeroC Ice packages.

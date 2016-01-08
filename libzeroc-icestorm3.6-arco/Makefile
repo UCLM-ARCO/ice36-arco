@@ -11,5 +11,5 @@ install:
 
 	install -d $(D)$(LIBDIR)
 
-	install -m 755 $(ICE_DIR)/cpp/lib/libIceStormService.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libIceStormService.so.3.6.1 $(D)$(LIBDIR)/
 	ln -s libIceStormService.so.3.6.1 $(D)$(LIBDIR)/libIceStormService.so.36

@@ -5,7 +5,9 @@ ICE_VER := 3.6.1
 
 CPU := $(shell uname -m)
 ifeq ($(CPU),x86_64)
-	LIBDIR = /usr/lib/x86_64-linux-gnu
+	TRIPLET = x86_64-linux-gnu
 else ifeq ($(CPU),armv7l)
-	LIBDIR = /usr/lib/arm-linux-gnueabihf
+	TRIPLET = arm-linux-gnueabihf
 endif
+
+LIBDIR := /usr/lib/$(TRIPLET)

@@ -1,16 +1,18 @@
 Source: libzeroc-icestorm3.6-arco
 Section: utils
 Priority: extra
-Maintainer: Oscar Acena <oscar.acena@gmail.com>
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~)
 Standards-Version: 3.9.6
 
 Package: libzeroc-icestorm3.6-arco
 Architecture: any
 Depends: ${misc:Depends},
+ libc6,
  libdb5.3++,
  libzeroc-freeze3.6-arco,
  libzeroc-ice3.6-arco
+Provides: libzeroc-icestorm3.6
 Description: IceStorm publish–subscribe event distribution service for Ice
  IceStorm publish–subscribe event distribution service for the Internet
  Communications Engine (Ice).

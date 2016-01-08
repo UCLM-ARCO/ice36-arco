@@ -8,7 +8,9 @@ Standards-Version: 3.9.6
 Package: libzeroc-ice3.6-arco
 Architecture: any
 Depends: ${misc:Depends},
+ libc6,
  libmcpp0,
  libssl1.0.0 (>= 1.0.0)
+Provides: libzeroc-ice3.6
 Description:The Ice run time for C++
  The ZeroC Ice run time for C++ and dependants.

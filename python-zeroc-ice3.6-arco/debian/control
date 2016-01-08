@@ -8,8 +8,10 @@ Standards-Version: 3.9.6
 Package: python-zeroc-ice3.6-arco
 Architecture: any
 Depends: ${misc:Depends},
+ libc6,
  python,
  libzeroc-ice3.6-arco
+Provides: python-zeroc-ice36
 Description: Ice is comprehensive RPC framework with support for Python,
  The Internet Communications Engine (Ice) provides a robust, proven platform for
  developing mission-critical networked applications.

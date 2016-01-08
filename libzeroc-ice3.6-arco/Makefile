@@ -11,18 +11,18 @@ install:
 
 	install -d $(D)$(LIBDIR)
 
-	install -m 755 $(ICE_DIR)/cpp/lib/libIce.so.3.6.1 $(D)$(LIBDIR)/
-	install -m 755 $(ICE_DIR)/cpp/lib/libIceLocatorDiscovery.so.3.6.1 $(D)$(LIBDIR)/
-	install -m 755 $(ICE_DIR)/cpp/lib/libIceUtil.so.3.6.1 $(D)$(LIBDIR)/
-	install -m 755 $(ICE_DIR)/cpp/lib/libIceGrid.so.3.6.1 $(D)$(LIBDIR)/
-	install -m 755 $(ICE_DIR)/cpp/lib/libIceDiscovery.so.3.6.1 $(D)$(LIBDIR)/
-	install -m 755 $(ICE_DIR)/cpp/lib/libIceSSL.so.3.6.1 $(D)$(LIBDIR)/
-	install -m 755 $(ICE_DIR)/cpp/lib/libIcePatch2.so.3.6.1 $(D)$(LIBDIR)/
-	install -m 755 $(ICE_DIR)/cpp/lib/libIceStorm.so.3.6.1 $(D)$(LIBDIR)/
-	install -m 755 $(ICE_DIR)/cpp/lib/libSlice.so.3.6.1 $(D)$(LIBDIR)/
-	install -m 755 $(ICE_DIR)/cpp/lib/libGlacier2CryptPermissionsVerifier.so.3.6.1 $(D)$(LIBDIR)/
-	install -m 755 $(ICE_DIR)/cpp/lib/libIceBox.so.3.6.1 $(D)$(LIBDIR)/
-	install -m 755 $(ICE_DIR)/cpp/lib/libGlacier2.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libIce.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libIceLocatorDiscovery.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libIceUtil.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libIceGrid.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libIceDiscovery.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libIceSSL.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libIcePatch2.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libIceStorm.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libSlice.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libGlacier2CryptPermissionsVerifier.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libIceBox.so.3.6.1 $(D)$(LIBDIR)/
+	install -m 755 $(ICE_DIR)/cpp/lib/$(TRIPLET)/libGlacier2.so.3.6.1 $(D)$(LIBDIR)/
 
 	ln -s libIce.so.3.6.1 $(D)$(LIBDIR)/libIce.so.36
 	ln -s libIceLocatorDiscovery.so.3.6.1 $(D)$(LIBDIR)/libIceLocatorDiscovery.so.36

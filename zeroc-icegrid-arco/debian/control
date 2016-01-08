@@ -8,9 +8,12 @@ Standards-Version: 3.9.6
 Package: zeroc-icegrid-arco
 Architecture: any
 Depends: ${misc:Depends},
+ libc6,
+ python,
  libzeroc-freeze3.6-arco,
  libzeroc-ice3.6-arco,
  libzeroc-icestorm3.6-arco
+Provides: zeroc-icegrid
 Description: IceGrid is the server deployment and monitoring for Ice
  IceGrid is the server deployment and monitoring for the Internet
  Communications Engine (Ice).
