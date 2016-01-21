@@ -1,0 +1,22 @@
+Source: libzeroc-ice-dev-arco
+Section: devel
+Priority: extra
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.6
+
+Package: libzeroc-ice-dev-arco
+Architecture: all
+Depends: ${misc:Depends},
+ libc6,
+ libdb5.3++,
+ libgcc1 (>= 1:4.1.1),
+ libssl1.0.0 (>= 1.0.0),
+ libstdc++6 (>= 4.6),
+ libzeroc-freeze3.6 | libzeroc-freeze3.6-rpi,
+ libzeroc-ice3.6 | libzeroc-ice3.6-rpi,
+ zeroc-ice-slice | zeroc-ice-slice-rpi
+Provides: libzeroc-ice-dev
+Description: Tools, libraries and headers for developing Ice applications in C++
+ This package provides the needed tools, libraries and headers for
+ developing Ice applications in C++.
