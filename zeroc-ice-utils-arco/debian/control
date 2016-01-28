@@ -1,0 +1,21 @@
+Source: zeroc-ice-utils-arco
+Section: admin
+Priority: extra
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.6
+
+Package: zeroc-ice-utils-arco
+Architecture: any
+Replaces: ice-utils, ice35-services, icebox
+Provides: zeroc-ice-utils
+Depends: ${misc:Depends},
+ libc6,
+ libdb5.3++,
+ libgcc1 (>= 1:4.1.1),
+ libstdc++6 (>= 4.6),
+ libzeroc-freeze3.6,
+ libzeroc-ice3.6,
+ libzeroc-icestorm3.6
+Description: Ice utilities and admin tools
+ ZeroC Ice utilities and admin tools.
