@@ -7,4 +7,4 @@ download:
 
 .PHONY: clean
 clean:
-	$(RM) -f *.xz
+	$(RM) -f *.xz *.upload

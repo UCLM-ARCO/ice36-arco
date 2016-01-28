@@ -1,0 +1,21 @@
+Source: zeroc-ice-utils-java-arco
+Section: admin
+Priority: extra
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.6
+
+Package: zeroc-ice-utils-java-arco
+Architecture: all
+Replaces: ice-utils, icegrid-gui, icegridgui
+Provides: zeroc-ice-utils-java
+Depends:
+ zeroc-ice-utils,
+ openjdk-7-jdk
+ | openjdk-8-jdk
+ | oracle-java7-installer
+ | oracle-java8-installer
+ | openjdk-7-jre
+ | openjdk-8-jre
+Description: IceGrid Admin graphical client for IceGrid
+ IceGrid Admin graphical client for IceGrid, written on Java.
