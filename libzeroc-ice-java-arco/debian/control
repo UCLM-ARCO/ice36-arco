@@ -1,0 +1,20 @@
+Source: libzeroc-ice-java-arco
+Section: devel
+Priority: extra
+Maintainer: Oscar Aceña Herrera <oscaracena@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.6
+
+Package: libzeroc-ice-java-arco
+Architecture: any
+Depends: ${misc:Depends},
+ libc6,
+ libgcc1,
+ libstdc++6 (>= 4.6),
+ libzeroc-ice3.6,
+ zeroc-ice-slice,
+ libdb5.3-java (>= 5.3.28),
+ openjdk-7-jdk | openjdk-8-jdk | oracle-java7-installer | oracle-java8-installer
+Description: Tools for developing Ice applications in Java
+ This package provides a series of tools for developing Ice
+ applications in Java.
